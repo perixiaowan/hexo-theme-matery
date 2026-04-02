@@ -153,18 +153,18 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/perixiaowan
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/perixiaowan
+  email: perixiaowan@outlook.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
-  weibo: # https://weibo.com/xxx
+  qq: 706477566
+  weibo: https://weibo.com/u/2106438273
   zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
 
@@ -196,7 +196,7 @@ reward:
 # minCharNumber: Approve copyright information by copying at least how many characters.
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: false
+  enable: true
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
@@ -216,11 +216,11 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
+  update: true # 更新日期
   wordCount: false # 文章字数统计
   totalCount: false # 站点总文章字数
-  min2read: false # 文章阅读时长
-  readCount: false # 文章阅读次数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -240,22 +240,22 @@ clicklove:
 # 是否激活页面樱花效果, 只在桌面版网页启用特效
 # 下面三种特效建议选择一种就够了，
 sakura:
-  enable: false
+  enable: true
 
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
-  enable: false
+  enable: true
 
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
-  enable: false
+  enable: true
 
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
+  avatar: /medias/avatar.png
   career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: 会讲究，也能将就，能享受最好的，也能承受最坏的，见过世面的，自然会在人群中散发不一样的气质，温和却有力量，谦卑却有内涵。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -287,22 +287,25 @@ mySkills:
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
+      percent: 80%
     JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 80%
+      percent: 90%
     HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
+      percent: 90%
     CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
+      percent: 90%
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
+      percent: 80%
     程序设计:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
+    VUE3:
+      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+      percent: 90%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -334,12 +337,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: false
-  owner:
-  repo:
+  owner: perixiaowan 
+  repo:  perixiaowan.github.io
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: 
+    clientSecret: 
+  admin: ['perixiaowan'] # 具有管理员权限的 GitHub 用户名列表，默认为空
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -407,7 +410,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/perixiaowan
   title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
