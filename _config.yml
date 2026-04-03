@@ -43,7 +43,7 @@ menu:
 # 站点运行开始时间.
 time:
   enable: false
-  year: 2019 # 年份
+  year: 2016 # 年份
   month: 06 # 月份
   date: 28 # 日期
   hour: 00 # 小时
@@ -85,7 +85,7 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 503838841     #require	song id / playlist id / album id / search keyword
+  id: 3363142456     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
@@ -266,18 +266,8 @@ myProjects:
     hexo-theme-matery:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+      url: https://liuxiaowan.com/html5-ebook/
+      desc: This is a ebook that teaches HTML5 syntax and features.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -444,8 +434,8 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: G-XQDGB5RRLH
 
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
@@ -632,8 +622,8 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
+    - 脚步丈量世界，文字丰盈内心。
+    - Feet measure the world, words enrich the heart.
 
 # 手机二级菜单.
 navMenu:
